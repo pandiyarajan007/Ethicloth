@@ -839,3 +839,88 @@
  .custom-submit-btn:hover {
      background: #333;
  }
+
+
+ @media (min-width: 1200px) {
+     .custom-container {
+         max-width: 60%;
+     }
+
+     h2 {
+         font-size: 28px;
+     }
+
+     p {
+         font-size: 18px;
+     }
+
+     .custom-submit-btn {
+         font-size: 18px;
+         padding: 14px;
+     }
+           .custom-container {
+               width: 100%
+           }
+ }
+
+ /* Medium Screens (Tablets) */
+ @media (max-width: 768px) {
+     .custom-container {
+         padding: 15px;
+     }
+
+     h2 {
+         font-size: 22px;
+     }
+
+     p {
+         font-size: 14px;
+     }
+
+     input,
+     textarea {
+         font-size: 14px;
+         padding: 8px;
+        width: 50px;
+     }
+
+     .custom-submit-btn {
+         font-size: 16px;
+         padding: 12px;
+    width: 50%;
+     }
+           .custom-container {
+               width: 100%
+           }
+ }
+
+ /* Small Screens (Mobile Phones) */
+ @media (max-width: 480px) {
+     .custom-container {
+         padding: 10px;
+     }
+
+     h2 {
+         font-size: 20px;
+     }
+
+     p {
+         font-size: 12px;
+     }
+
+     input,
+     textarea {
+         font-size: 12px;
+         padding: 6px;
+       
+     }
+
+     .custom-submit-btn {
+         font-size: 14px;
+         padding: 10px;
+         width: 50%;
+     }
+         .custom-container{
+            width:100%
+         }
+ }
